@@ -117,15 +117,15 @@ When the player dies:
 ---
 
 ## Scripts
-Bullet.cs - player's bullet, audio for bullet, contact with enemy and adds score
-Enemy.cs - enemy movements patterns, and shooting patterns
-EnemyBullet.cs - enemy's bullet towards player and destroys player
-EnemySpawner.cs - where enemy's can spawn and how often
-HealthManager.cs - more of game manager, health status of player, players lives icons, plays death sound if player is killed, restarts game with R key
-Meteor.cs - destroys player on contact, plays meteor collsion sound, how fast the meteors fall
-MeteorSpawner.cs - rate of meteors spawn in game and where in game
-PlayerController.cs - players start point, fire rate, shooting sound 
-ScoreManager.cs - updates score
+- Bullet.cs - player's bullet, audio for bullet, contact with enemy and adds score
+- Enemy.cs - enemy movements patterns, and shooting patterns
+- EnemyBullet.cs - enemy's bullet towards player and destroys player
+- EnemySpawner.cs - where enemy's can spawn and how often
+- HealthManager.cs - more of game manager, health status of player, players lives icons, plays death sound if player is killed, restarts game with R key
+- Meteor.cs - destroys player on contact, plays meteor collsion sound, how fast the meteors fall
+- MeteorSpawner.cs - rate of meteors spawn in game and where in game
+- PlayerController.cs - players start point, fire rate, shooting sound
+- ScoreManager.cs - updates score
 
 ---
 ## Notes
