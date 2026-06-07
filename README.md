@@ -1,0 +1,126 @@
+# Space Shooter Game (Unity 2D)
+
+A 2D arcade-style space shooter built in Unity where the player fights enemies, avoids meteor hazards, and survives as long as possible while earning points.
+
+---
+
+## Features
+
+- Player movement and shooting
+- Enemy spawning from both sides of the screen
+- Enemy bullets that damage the player
+- Meteor hazards that spawn and move across the map
+- Player health system with UI heart icons
+- Score system for destroying enemies
+- Explosion sound effects for:
+  - Enemy destruction
+  - Player death
+  - Meteor collision
+- Game Over system with restart option
+- Press R to restart instantly
+- Full gameplay loop
+
+---
+
+## Controls
+
+| Action        | Key / Input |
+|--------------|-------------|
+| Move Player   | Arrow Keys / WASD |
+| Shoot         | Left Mouse Key|
+| Restart Game  | R (after Game Over) |
+
+---
+
+## Gameplay Loop
+
+1. Player spawns with limited health
+2. Enemies spawn from the sides and move across the screen
+3. Enemy bullets damage the player
+4. Meteors spawn and move downward across the screen
+5. Player destroys enemies to gain score
+6. Game ends when health reaches zero or meteor hits player
+7. Press R to restart instantly
+
+---
+
+## Systems Overview
+
+### Player System
+- Movement using Rigidbody2D or transform controls
+- Shooting projectile bullets
+- Collision detection with enemies, bullets, and meteors
+
+### Enemy System
+- Spawns from left or right side
+- Moves across the screen
+- Shoots bullets at intervals
+- Plays explosion sound when destroyed
+
+### Meteor System
+- Spawns from upper screen area
+- Moves downward
+- Destroys player on contact
+- Triggers explosion sound
+
+### Health System
+- Player starts with limited lives (3)
+- UI hearts (ships) disappear when hit
+- Game over when health reaches zero
+
+### Score System
+- Score increases when enemies are destroyed (100 points)
+- Displayed using TextMeshPro UI
+
+### Audio System
+- Explosion sound for enemy destruction
+- Explosion sound for player death
+- Explosion sound for meteor collision
+
+---
+
+## UI
+
+- Score displayed at top of screen
+- Health displayed using heart icons
+- Game Over text appears on death
+- Restart prompt shown after game over
+
+---
+
+## Game Over System
+
+When the player dies:
+- Game freezes (Time.timeScale = 0)
+- Explosion sound plays
+- Game Over message appears
+- Player can press R to restart
+
+---
+
+## Built With
+
+- Unity Engine (2D)
+- C#
+- TextMeshPro UI
+- Unity Input System (or legacy input)
+
+---
+
+## How to Run
+
+1. Open project in Unity Hub
+2. Open the main scene
+3. Press Play in the Unity Editor
+4. Survive as long as possible
+
+---
+
+## Notes
+
+- Ensure all prefabs (Enemy, Bullet, Meteor) are assigned correctly in the Inspector
+- Tags must be set correctly:
+  - Player → Player
+  - Enemy → Enemy
+  - Bullet → Bullet
+- Audio clips must be assigned in their respective scripts
