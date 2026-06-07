@@ -27,7 +27,7 @@ A 2D arcade-style space shooter built in Unity where the player fights enemies, 
 | Action        | Key / Input |
 |--------------|-------------|
 | Move Player   | Arrow Keys / WASD |
-| Shoot         | Left Mouse Key|
+| Shoot         | Left Mouse Key |
 | Restart Game  | R (after Game Over) |
 
 ---
@@ -116,6 +116,18 @@ When the player dies:
 
 ---
 
+## Scripts
+Bullet.cs - player's bullet, audio for bullet, contact with enemy and adds score
+Enemy.cs - enemy movements patterns, and shooting patterns
+EnemyBullet.cs - enemy's bullet towards player and destroys player
+EnemySpawner.cs - where enemy's can spawn and how often
+HealthManager.cs - more of game manager, health status of player, players lives icons, plays death sound if player is killed, restarts game with R key
+Meteor.cs - destroys player on contact, plays meteor collsion sound, how fast the meteors fall
+MeteorSpawner.cs - rate of meteors spawn in game and where in game
+PlayerController.cs - players start point, fire rate, shooting sound 
+ScoreManager.cs - updates score
+
+---
 ## Notes
 
 - Ensure all prefabs (Enemy, Bullet, Meteor) are assigned correctly in the Inspector
