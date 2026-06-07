@@ -145,7 +145,7 @@ When the player dies:
   - Enemy → Enemy
   - Bullet → Bullet
 - Audio clips must be assigned in their respective scripts
-- 
+
  ## Author
  - Adam Lee
  - This project uses video instructions from Module 3 in COMP5970, Game Development, Dr. Abhishek Jariwala
