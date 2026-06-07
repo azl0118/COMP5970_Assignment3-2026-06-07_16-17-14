@@ -7,6 +7,7 @@ A 2D arcade-style space shooter built in Unity where the player fights enemies, 
 ## Screen Shots
 <img width="326" height="537" alt="image" src="https://github.com/user-attachments/assets/51f33fe8-a349-4952-b515-fde82b92d819" />
 <img width="331" height="547" alt="image" src="https://github.com/user-attachments/assets/672edd9f-7f31-4689-8b33-512b00270988" />
+<img width="388" height="558" alt="image" src="https://github.com/user-attachments/assets/e43580ed-8489-4188-b299-4aa8ccb73da4" />
 <img width="333" height="540" alt="image" src="https://github.com/user-attachments/assets/284c0eca-841a-4d62-aae6-91086f3df3a5" />
 <img width="343" height="553" alt="image" src="https://github.com/user-attachments/assets/14e46f4a-0979-4f76-926d-80616c68076e" />
 
